@@ -151,7 +151,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #faf8f8 !important;
 		}
 
 	strong, b {
@@ -1915,7 +1915,7 @@ input, select, textarea {
 			margin-left: 2em;
 		}
 
-/* Actions */
+/* Actions *
 
 	ul.actions {
 		display: -moz-flex;
@@ -2049,9 +2049,10 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 1em 0 0 1em;
+			
 		}
 
-/* Form */
+/* Form *
 
 	form {
 		margin: 0 0 2em 0;
@@ -2437,7 +2438,7 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-/* Button */
+/* Button *
 
 	input[type="submit"],
 	input[type="reset"],
@@ -2560,7 +2561,7 @@ input, select, textarea {
 			pointer-events: none;
 			opacity: 0.25;
 		}
-
+		*/
 /* Tiles */
 
 	.tiles {
@@ -2572,7 +2573,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2704,7 +2705,7 @@ input, select, textarea {
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
 					}
-
+/*
 			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
 			}
@@ -2728,7 +2729,7 @@ input, select, textarea {
 			.tiles article.style6 > .image:before {
 				background-color: #8499e7;
 			}
-
+*/
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
 				-webkit-transform: scale(1.1);
@@ -2962,7 +2963,7 @@ input, select, textarea {
 
 		}
 
-/* Menu */
+/* Menu *
 
 	#wrapper {
 		-moz-transition: opacity 0.45s ease;
@@ -3166,7 +3167,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: black;
 	}
 
 		#footer > .inner {
