@@ -1995,7 +1995,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background-image: url(minecraft.gif);
+			background-image: none;
 			background-color: #fff;
 		}
 
