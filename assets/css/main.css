@@ -3756,12 +3756,13 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: black;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		color: white;
 	}
 
 		#main > * {
@@ -3790,6 +3791,7 @@ input, select, textarea {
 				font-size: 4rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
+				color: white;
 			}
 
 			#main > .post.featured {
