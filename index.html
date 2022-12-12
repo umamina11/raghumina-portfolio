@@ -11,6 +11,33 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			.responsive {
+				width: 70%;
+				height: auto;
+			  }
+			.wave {
+				animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+				animation-duration: 2.5s;        /* Change to speed up or slow down */
+				animation-iteration-count: infinite;  /* Never stop waving :) */
+				transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+				display: inline-block;
+			  }
+			  
+			  
+			  @keyframes wave-animation {
+				  0% { transform: rotate( 0.0deg) }
+				 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+				 20% { transform: rotate(-8.0deg) }
+				 30% { transform: rotate(14.0deg) }
+				 40% { transform: rotate(-4.0deg) }
+				 50% { transform: rotate(10.0deg) }
+				 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+				100% { transform: rotate( 0.0deg) }
+			  }
+			  
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -19,13 +46,12 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>This is<br />
-						Massively</h1>
-						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
+						<h1>Hi,<span class="wave">👋</span><br />
+						Myself Raghu</h1>
+						<p> I am a Game Developer and Bioinformatician, Interested in Human Computer Interaction.</p>
 						<ul class="actions">
 							<li><a href="#main" > <button type="button">Projects</button></a></li> 
-							<li><a href="https://github.com/" > <button type="button">Reseume</button></a></li>
+							<li><a href="resume.pdf" > <button type="button">Reseume</button></a></li>
 						</ul>
 					</div>
 
@@ -55,54 +81,112 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date">Spacewar</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<span class="date">Sleepy Game</span>
+									<h2><a href="#">Sleepy Game
+									</a></h2>
+									<p>As part of a larger project with collaboration among multiple organizations to assist patients with
+										mild cognitive impairment or Alzheimer's disease, I prototyped, designed and developed Smartphone and mobile
+										apps to track, monitor and remind the patient about the daily activities around their Sleep schedule. It’s a sponsored
+										project for the Serious Games foundation class.
+										<br>
+										 Tools and Technologies: C#, Unity, Figma, Adobe Photoshop, Git, Github, Visual Studio Code
+										</p>
 								</header>
-								<a href="#" class="image main"><img src="spacewar.gif" alt="" /></a>
+								<a href="#" class="image main"><img src="sleepy.gif"  alt=""   width="150" height="500"  /></a>
 								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
+									<li><a href="sleepy.pdf" class="button large">More</a></li>
 								</ul>
 							</article>
 							<article class="post featured">
 								<header class="major">
-									<span class="date">Spacewar</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<span class="date">Sanity Insanity</span>
+									<h2><a href="#">Sanity Insanity</a></h2>
+									<p> Worked on the design of the cards and board for a paper prototype where players compete to
+										collect most points while promoting positive attitude, mental health awareness among the group as part of the
+										Serious Game Foundation I class.<br>	
+										● Technology and Tool: TableTopia, GIMP, Adobe Photoshop
+										
+										</p>
 								</header>
-								<a href="#" class="image main"><img src="spacewar.gif" alt="" /></a>
+								<a href="#" class="image main"><img src="sanity.gif" alt=""  width="100" height="400" /></a>
 								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article><article class="post featured">
-								<header class="major">
-									<span class="date">Spacewar</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="spacewar.gif" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
+									<li><a href="Sanity_Insantiy.pdf" class="button large">More</a></li>
 								</ul>
 							</article>
+							<article class="post featured">
+								<header class="major">
+									<span class="date">Ninja Smashers</span>
+									<h2><a href="#">Ninja Smashers</a></h2>
+									<p>Developed a game using Unity 3D as a part of an academic group assignment for the Game
+										Design System class. Fabricated the audio effects and debugged code, resolved the gameplay and the mechanics
+										problems.<br>
+										Technology and Tool: C#, Unity, Visual Studio Code, Audacity
+
+										</p>
+								</header>
+								<a href="#" class="image main"><img src="nj.gif" alt=""  width="150" height="500" /></a>
+								<ul class="actions special">
+									<li><a href="https://github.com/HanKan7/Game-200---Systems-" class="button large">More</a></li>
+								</ul>
+							</article>
+
+							<article class="post featured">
+								<header class="major">
+									<span class="date">Skate ANTics</span>
+									<h2><a href="#">Skate ANTics</a></h2>
+									<p> Designed user interface, created story narrative, and developed audio effects for a group
+										assignment using Unity 3D game engine. The player controls an ant in a colony, and has to compete and win in the
+										skate competition to save the clan's reputation.
+									<br> Tools and Technologies: C#, Unity, Audacity, Visual Studio Code, Github, Pixilart
+<br>
+<br>
+										</p>
+								</header>
+								<a href="#" class="image main"><img src="story.gif" alt=""  width="150" height="500" /></a>
+								<ul class="actions special">
+									<li><a href="https://github.com/raghumina/GAME200-AntSkate" class="button large">More</a></li>
+								</ul>
+							</article>
+
+							<!-- small projects-->
 						<!-- Posts -->
 							<section class="posts">
 								<article>
 									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
+										<span class="date"></span>
+										<h2><a href="finish the story.pdf">Finish the Story<br />
+										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<a href="finish the story.pdf" class="image fit"><img src="Screenshot (60).png" alt=""  width="150" height="450"/></a>
+									<p>Prototyped a multiplayer board game where players collaborate to complete a story by voting
+										mechanics.<br>
+										● Skills: Paper Prototyping, Presentation.</p>
+									<ul class="actions special">
+										<li><a href="finish the story.pdf" class="button">More</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date"></span>
+										<h2><a href="https://github.com/raghumina/Processing/tree/main/Final_Project">Space Shooter:<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/raghumina/Processing/tree/main/Final_Project" class="image fit"><img src="shooting.gif" alt=""   width="150" height="450"/></a>
+									<p>Developed a space shooter game where the player shoots the procedurally generated targets using
+										mouse as input.<br>
+										● Technology and Tool: Processing.py, Audacity, Sound Library
+										</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/raghumina/Processing/tree/main/Final_Project" class="button">More</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date"></span>
+										<h2><a href="#">Bounce Ball<br />
+										</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="bounceball.gif" alt=""  width="150" height="450" /></a>
 									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
@@ -110,62 +194,40 @@
 								</article>
 								<article>
 									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
+										<span class="date"></span>
+										<h2><a href="#">Tic-Tac-Toe<br />
+										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="tictactoe.gif" alt=""   width="150" height="450"/></a>
+									<p>TicTacToe_game_using_ursina_engine Tic-tac-toe (American English), noughts and crosses (Commonwealth English), or Xs and Os/“X’y O’sies” (Ireland), is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner.</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="https://github.com/raghumina/TicTacToe" class="button">More</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
+										<span class="date"></span>
+										<h2><a href="#">Esquiver<br />
+										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="Esquiver.gif" alt=""   width="150" height="450"/></a>
+									<p>Flappy Bird is a mobile game developed by Vietnamese video game artist and programmer Dong Nguyen (Vietnamese: Nguyễn Hà Đông), under his game development company dotGears. The game is a side-scroller where the player controls a bird, attempting to fly between columns of green pipes without hitting them. Nguyen created the game over the period of several days, using a bird protagonist that he had designed for a cancelled game in 2012.</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="https://github.com/raghumina/Esquiver_Bird" class="button">More</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
+										<span class="date"></span>
+										<h2><a href="#">Snake Game<br />
+										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="snake1.gif" alt=""   width="150" height="450"/></a>
+									<p>Snake Game using Pygame module A Game where player controls a growing chain of blocks using arrow keys while avoiding collison with self and wall
+
+										This game is based on Snake II by Nokia Snake is the common name for a video game concept where the player maneuvers a line which grows in length, with the line itself being a primary obstacle</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="https://github.com/raghumina/Snake__Game" class="button">More</a></li>
 									</ul>
 								</article>
 							</section>
@@ -239,9 +301,9 @@
 				<!-- Copyright -->
 					<div id="copyright">
 						<ul class="icons alt">
-							<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							
+							
+							<li><a href="#" class="icon brands alt fa fa-linkedin"><span class="label">Linkdlen</span></a></li>
 							<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</div>
