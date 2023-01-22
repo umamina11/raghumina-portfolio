@@ -52,20 +52,66 @@
 			  .cent{
 				text-align: center;
 			  }
-			  
+			  /**Jumping text**/
+			    .jumping-text {
+				display: inline-block;
+				transition: transform 0.4s;
+				
+			}
+			
+			.jumping-text:hover {
+				transform: translateY(-50px);
+			}
+			@keyframes jump {
+				0% { transform: translateY(0); }
+				50% { transform: translateY(-50px); }
+				100% { transform: translateY(0); }
+			}
+			
+			.jumping-text:hover {
+				animation: jump 0.4s;
+			}
+			/**background**/
+.bg {
+				background-image: url('mine.gif');
+				background-size: cover;
+				background-position: center;
+				height: 100vh; /* 100% of the viewport height */
+			  }
+
 		</style>
 	</head>
 	<body class="is-preload">
 		
 
 		<!-- Wrapper -->
+		<div class="bg">
 			<div id="wrapper" class="fade-in">
 
 				<!-- Intro -->
 				
 					<div id="intro">
-						<h1>Hi,<span class="wave">👋</span><br />
-						Myself Raghu</h1>
+						<h1>
+						<div class="jumping-text">H</div> 
+						<div class="jumping-text">i</div>
+						<div class="jumping-text">,</div>
+						<div class="jumping-text"><span class="wave">👋</span></div>
+						<div class="jumping-text">M</div>
+						<div class="jumping-text">y</div>
+						<div class="jumping-text">s</div>
+						<div class="jumping-text">e</div>
+						<div class="jumping-text">l</div>
+						<div class="jumping-text">f</div><br>
+						<div class="jumping-text"> R</div>
+						<div class="jumping-text"> a</div>
+						<div class="jumping-text"> g</div>
+						<div class="jumping-text"> h</div>
+						<div class="jumping-text"> u</div>
+
+
+
+
+						</h1>
 						<p> I am a Game Developer and Bioinformatician, Interested in Human Computer Interaction.</p>
 
 						<div class="buttons">
@@ -82,7 +128,7 @@
 						</div>
 
 
-						
+					</div>	
 					</div>
 
 			
