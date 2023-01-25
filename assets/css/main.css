@@ -2059,7 +2059,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-/* Button */
+/* Button *
 
 	input[type="submit"],
 	input[type="reset"],
@@ -3349,7 +3349,7 @@ input, select, textarea {
 		#intro hr {
 			border-bottom-color: #ffffff;
 		}
-
+/*
 		#intro input[type="submit"],
 		#intro input[type="reset"],
 		#intro input[type="button"],
@@ -3386,7 +3386,7 @@ input, select, textarea {
 				#intro .button.primary:hover {
 					background-color: #18bfef;
 				}
-
+**/
 		#intro h1 {
 			font-size: 5rem;
 			line-height: 1;
