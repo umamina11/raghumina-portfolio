@@ -9,11 +9,7 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
 		<style>
-			body{
-				background-image: url("bounceball.gif");
-				background-repeat: no-repeat;
-				height: 100%;
-			}
+		
 			.responsive {
 				width: 70%;
 				height: auto;
@@ -78,6 +74,59 @@
 				background-position: center;
 				height: 100vh; /* 100% of the viewport height */
 			  }
+  /**flip - card image **/
+
+  .flip-card {
+	background-color: transparent;
+	width: 500px;
+	height: 300px;
+	perspective: 1000px;
+	align-items: center;
+  }
+  
+  .flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.9s;
+	transform-style: preserve-3d;
+	box-shadow:  8px 8px   rgb(247, 244, 244);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+	background-color: #bbb;
+	color: black;
+	border-radius: 10%;
+  }
+  
+  .flip-card-back {
+	background-color: #2980b9;
+	color: white;
+	transform: rotateY(180deg);
+	border-radius: 5%;
+	width: 3 00px;
+	overflow: auto;
+  }
+  .flip-card-back, p{
+	text-align: justify;
+	font-size:small;
+	padding-left: 20px;
+	padding-right: 10px;
+  }
+
 
 		</style>
 	</head>
@@ -226,160 +275,277 @@
 								</ul>
 							</article>
 
-							<!-- small projects-->
+							 small projects-->
+						
+									<!-- small projects-->
 						<!-- Posts -->
 						<div class="cent">
-						<h2>Projects </h2></div>
-							<section class="posts">
-								<!--sleepy game -->
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="sleepy.pdf">Sleepy Game<br />
-										</a></h2>
-									</header>
-									<a href="sleepy.pdf" class="image fit"><img src="sl.gif" alt=""  width="150" height="450"/></a>
-									
-									<ul class="actions special">
-										<li><a href="sleepy.pdf" class="button">More</a></li>
-									</ul>
-								</article>
-								<!---Sanity Insantiy-->
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="Sanity_Insanity.html">Sanity_Insanity<br />
-										</a></h2>
-									</header>
-									<a href="Sanity_Insanity.html" class="image fit"><img src="sanity.gif" alt=""  width="150" height="450"/></a>
-									
-									<ul class="actions special">
-										<li><a href="Sanity_Insanity.html" class="button">More</a></li>
-									</ul>
-								</article>
-								<!---Ninja smachers-->
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="https://github.com/HanKan7/Game-200---Systems-">Ninja Smachers<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/HanKan7/Game-200---Systems-" class="image fit"><img src="nj.gif
-										" alt=""  width="150" height="450"/></a>
-									
-									<ul class="actions special">
-										<li><a href="https://github.com/HanKan7/Game-200---Systems-" class="button">More</a></li>
-									</ul>
-								</article>
-								<!---Skate antics-->
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="finish the story.pdf">Skate Antics<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/raghumina/GAME200-AntSkate" class="image fit"><img src="story.gif" alt=""  width="150" height="450"/></a>
-									
-									<ul class="actions special">
-										<li><a href="https://github.com/raghumina/GAME200-AntSkate" class="button">More</a></li>
-									</ul>
-								</article>
-
-
-
-
-								<!--finish the story-->
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="finish the story.pdf">Finish the Story<br />
-										</a></h2>
-									</header>
-									<a href="finish the story.pdf" class="image fit"><img src="Screenshot (60).png" alt=""  width="150" height="450"/></a>
-									
-									<ul class="actions special">
-										<li><a href="finish the story.pdf" class="button">More</a></li>
-									</ul>
-								</article>
-								<!--Space shooter-->
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="https://github.com/raghumina/Processing/tree/main/Final_Project">Space Shooter<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/raghumina/Processing/tree/main/Final_Project" class="image fit"><img src="shooting.gif" alt=""   width="150" height="450"/></a>
-									
-									<ul class="actions special">
-										<li><a href="https://github.com/raghumina/Processing/tree/main/Final_Project" class="button">More</a></li>
-									</ul>
-								</article>
-								<!---Tic-Tac-Toe-->
-
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="https://github.com/raghumina/TicTacToe">Tic-Tac-Toe<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/raghumina/TicTacToe" class="image fit"><img src="tictactoe.gif" alt=""   width="150" height="450"/></a>
-									
-									
-						
-									<ul class="actions special">
-										<li><a href="https://github.com/raghumina/TicTacToe" class="button">More</a></li>
-									</ul>
-								</article>
-								<!---Esquiver-->
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="https://github.com/raghumina/Esquiver_Bird">Esquiver<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/raghumina/Esquiver_Bird" class="image fit"><img src="Esquiver.gif" alt=""   width="150" height="450"/></a>
-									
-									<ul class="actions special">
-										<li><a href="https://github.com/raghumina/Esquiver_Bird" class="button">More</a></li>
-									</ul>
-								</article>
-								<!--Snake Game -->
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="https://github.com/raghumina/Snake__Game">Snake Game<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/raghumina/Snake__Game" class="image fit"><img src="snake1.gif" alt=""   width="150" height="450"/></a>
-									
-									
-									<ul class="actions special">
-										<li><a href="https://github.com/raghumina/Snake__Game" class="button">More</a></li>
-									</ul>
-								</article>
-								<!---Bounce the ball-->
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="#">Bounce Ball<br />
-										</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="bounceball.gif" alt=""  width="150" height="450" /></a>
-									<p><br>
+							<h2>Projects </h2></div>
+								<section class="posts">
+									<!--sleepy game -->
+									<article>
+										<header>
+											<span class="date"></span>
+											<h2><a href="sleepy.pdf">Sleepy Game<br />
+											</a></h2>
+										</header>
+										<a href="sleepy.pdf" class="image fit"><div class="flip-card">
+											<div class="flip-card-inner">
+											  <div class="flip-card-front">
+												<img src="sl.gif" alt="Avatar" style="width:500px;height:300px;">
+											  </div>
+											  <div class="flip-card-back">
+												<h3>Sleep Hygiene: </h3> 
+												<p> As part of a larger project with collaboration among multiple organizations to assist patients with
+													mild cognitive impairment or Alzheimer's disease, I prototyped, designed and developed Smartphone and mobile
+													apps to track, monitor and remind the patient about the daily activities around their Sleep schedule. It’s a sponsored
+													project for the Serious Games foundation class</p><br>
+												<p><b>Tools and Technologies:</b>C#, Unity, Figma, Adobe Photoshop, Git, Github, Visual Studio Code</p>
+											  </div>
+											</div>
+										  </div></a>
+										
+										<ul class="actions special">
+											<li><a href="sleepy.pdf" class="button">More</a></li>
+										</ul>
+									</article>
+									<!---Sanity Insantiy-->
+									<article>
+										<header>
+											<span class="date"></span>
+											<h2><a href="Sanity_Insanity.html">Sanity_Insanity<br />
+											</a></h2>
+										</header>
+										<a href="Sanity_Insanity.html" class="image fit">
+											<div class="flip-card">
+												<div class="flip-card-inner">
+												  <div class="flip-card-front">
+											<img src="sanity.gif" alt=""  width="150" height="450"/>
+											</div>
+											<div class="flip-card-back">
+											<h2>Sanity Insanity: </h2> 
+											<p>Tools and Technologies:<br>C#, Unity, Figma, Adobe Photoshop, Git, Github, Visual Studio Code</p>
+										  </div>
+										</div>
+									  </div></a>
+										<ul class="actions special">
+											<li><a href="Sanity_Insanity.html" class="button">More</a></li>
+										</ul>
+									</article>
+									<!---Ninja smachers-->
+									<article>
+										<header>
+											<span class="date"></span>
+											<h2><a href="https://github.com/HanKan7/Game-200---Systems-">Ninja Smachers<br />
+											</a></h2>
+										</header>
+										<a href="https://github.com/HanKan7/Game-200---Systems-" class="image fit">
+											
+											
+											<div class="flip-card">
+												<div class="flip-card-inner">
+												  <div class="flip-card-front">
+											<img src="nj.gif" alt=""  width="150" height="450"/>
+										</div>
+										<div class="flip-card-back">
+											<h2>Ninja Smachers: </h2> 
+											<p>Tools and Technologies:<br>C#, Unity, Figma, Adobe Photoshop, Git, Github, Visual Studio Code</p>
+										  </div>
+										</div>
+									  </div></a>
+										
+										<ul class="actions special">
+											<li><a href="https://github.com/HanKan7/Game-200---Systems-" class="button">More</a></li>
+										</ul>
+									</article>
+									<!---Skate antics-->
+									<article>
+										<header>
+											<span class="date"></span>
+											<h2><a href="finish the story.pdf">Skate Antics<br />
+											</a></h2>
+										</header>
+										<a href="https://github.com/raghumina/GAME200-AntSkate" class="image fit">
+											<div class="flip-card">
+												<div class="flip-card-inner">
+												  <div class="flip-card-front">
+											
+											<img src="story.gif" alt=""  width="150" height="450"/>
+										</div>
+										<div class="flip-card-back">
+											<h2>Skate Antics: </h2> 
+											<p>Tools and Technologies:<br>C#, Unity, Figma, Adobe Photoshop, Git, Github, Visual Studio Code</p>
+										  </div>
+										</div>
+									  </div></a>
+										<ul class="actions special">
+											<li><a href="https://github.com/raghumina/GAME200-AntSkate" class="button">More</a></li>
+										</ul>
+									</article>
+	
+	
+	
+	
+									<!--finish the story-->
+									<article>
+										<header>
+											<span class="date"></span>
+											<h2><a href="finish the story.pdf">Finish the Story<br />
+											</a></h2>
+										</header>
+										<a href="finish the story.pdf" class="image fit">
+											<div class="flip-card">
+												<div class="flip-card-inner">
+												  <div class="flip-card-front">
+											<img src="Screenshot (60).png" alt=""  width="150" height="450"/>
+										</div>
+										<div class="flip-card-back">
+											<h2>Finish the Story: </h2> 
+											<p>Tools and Technologies:<br>C#, Unity, Figma, Adobe Photoshop, Git, Github, Visual Studio Code</p>
+										  </div>
+										</div>
+									  </div></a>
+										
+										<ul class="actions special">
+											<li><a href="finish the story.pdf" class="button">More</a></li>
+										</ul>
+									</article>
+									<!--Space shooter-->
+									<article>
+										<header>
+											<span class="date"></span>
+											<h2><a href="https://github.com/raghumina/Processing/tree/main/Final_Project">Space Shooter<br />
+											</a></h2>
+										</header>
+										<a href="https://github.com/raghumina/Processing/tree/main/Final_Project" class="image fit">
+											
+											<div class="flip-card">
+												<div class="flip-card-inner">
+												  <div class="flip-card-front">
+											<img src="shooting.gif" alt=""   width="150" height="450"/>
+										</div>
+										<div class="flip-card-back">
+											<h2>Space shooter: </h2> 
+											<p>Tools and Technologies:<br>C#, Unity, Figma, Adobe Photoshop, Git, Github, Visual Studio Code</p>
+										  </div>
+										</div>
+									  </div></a>
+										<ul class="actions special">
+											<li><a href="https://github.com/raghumina/Processing/tree/main/Final_Project" class="button">More</a></li>
+										</ul>
+									</article>
+									<!---Tic-Tac-Toe-->
+	
+									<article>
+										<header>
+											<span class="date"></span>
+											<h2><a href="https://github.com/raghumina/TicTacToe">Tic-Tac-Toe<br />
+											</a></h2>
+										</header>
+										<a href="https://github.com/raghumina/TicTacToe" class="image fit">
+											<div class="flip-card">
+												<div class="flip-card-inner">
+												  <div class="flip-card-front">
+											
+											<img src="tictactoe.gif" alt=""   width="150" height="450"/>
+										</div>
+										<div class="flip-card-back">
+											<h2>Tic-Tac-Toe: </h2> 
+											<p>Tools and Technologies:<br>C#, Unity, Figma, Adobe Photoshop, Git, Github, Visual Studio Code</p>
+										  </div>
+										</div>
+									  </div></a>
+										
+										
+							
+										<ul class="actions special">
+											<li><a href="https://github.com/raghumina/TicTacToe" class="button">More</a></li>
+										</ul>
+									</article>
+									<!---Esquiver-->
+									<article>
+										<header>
+											<span class="date"></span>
+											<h2><a href="https://github.com/raghumina/Esquiver_Bird">Esquiver<br />
+											</a></h2>
+										</header>
+										<a href="https://github.com/raghumina/Esquiver_Bird" class="image fit">
+											<div class="flip-card">
+												<div class="flip-card-inner">
+												  <div class="flip-card-front">
+											<img src="Esquiver.gif" alt=""   width="150" height="450"/>
+										</div>
+										<div class="flip-card-back">
+											<h2>Esquiver: </h2> 
+											<p>Tools and Technologies:<br>C#, Unity, Figma, Adobe Photoshop, Git, Github, Visual Studio Code</p>
+										  </div>
+										</div>
+									  </div>
+										</a>
+										
+										<ul class="actions special">
+											<li><a href="https://github.com/raghumina/Esquiver_Bird" class="button">More</a></li>
+										</ul>
+									</article>
+									<!--Snake Game -->
+									<article>
+										<header>
+											<span class="date"></span>
+											<h2><a href="https://github.com/raghumina/Snake__Game">Snake Game<br />
+											</a></h2>
+										</header>
+										<a href="https://github.com/raghumina/Snake__Game" class="image fit">
+											<div class="flip-card">
+												<div class="flip-card-inner">
+												  <div class="flip-card-front">
+											<img src="snake1.gif" alt=""   width="150" height="450"/>
+										</div>
+										<div class="flip-card-back">
+											<h2>Snake Game: </h2> 
+											<p>Tools and Technologies:<br>C#, Unity, Figma, Adobe Photoshop, Git, Github, Visual Studio Code</p>
+										  </div>
+										</div>
+									  </div>
+										</a>
+										
+										
+										<ul class="actions special">
+											<li><a href="https://github.com/raghumina/Snake__Game" class="button">More</a></li>
+										</ul>
+									</article>
+									<!---Bounce the ball-->
+									<article>
+										<header>
+											<span class="date"></span>
+											<h2><a href="#">Bounce Ball<br />
+											</a></h2>
+										</header>
+										<a href="#" class="image fit">
+											<div class="flip-card">
+												<div class="flip-card-inner">
+												  <div class="flip-card-front">
+											<img src="bounceball.gif" alt=""  width="150" height="450" />
+										</div>
+										<div class="flip-card-back">
+											<h2>Snake Game: </h2> 
+											<p>Tools and Technologies:<br>C#, Unity, Figma, Adobe Photoshop, Git, Github, Visual Studio Code</p>
+										  </div>
+										</div>
+									  </div>
+										</a>
+										<p><br>
+										<br>
 									<br>
-								<br>
-							<br><br>
-						</p>
-						<br>
-						<br>
-						<!---		<ul class="actions special">
-										<li><a href="#" class="button">More</a></li>
-									</ul>-->
-								</article>
-								
-							</section>
-
-						<!-- Footer -->
+								<br><br>
+							</p>
+							<br>
+							<br>
+							<!---		<ul class="actions special">
+											<li><a href="#" class="button">More</a></li>
+										</ul>-->
+									</article>
+									
+								</section>						<!-- Footer -->
 							
 				
 
