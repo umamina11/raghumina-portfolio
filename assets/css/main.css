@@ -3580,7 +3580,7 @@ input, select, textarea {
 
 			#header .logo:hover {
 				border-color: #18bfef !important;
-				color: #18bfef !important;
+				color: black !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -4008,7 +4008,7 @@ input, select, textarea {
 		#footer .box {
 			border-color: #e2e2e2;
 		}
-
+/**
 		#footer input[type="submit"],
 		#footer input[type="reset"],
 		#footer input[type="button"],
@@ -4099,7 +4099,7 @@ input, select, textarea {
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
 			border-color: #18bfef;
-		}
+		}**/
 
 		#footer ::-webkit-input-placeholder {
 			color: #b3b7bb !important;
