@@ -3758,7 +3758,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: black;
+		background-image: url("spacewar.gif");
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
