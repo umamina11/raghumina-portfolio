@@ -187,6 +187,7 @@ input, select, textarea {
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
 		margin: 0 0 1rem 0;
+		color: black;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -205,6 +206,7 @@ input, select, textarea {
 		font-size: 1.75rem;
 		line-height: 1.3;
 		margin: 0 0 1.5rem 0;
+		color: black;
 	}
 
 	h3 {
@@ -2608,13 +2610,13 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 2rem 2rem 0;
+			margin: 2rem 2rem 2rem 2rem;
 			top: 0.75rem;
 		}
 
 		.image.right {
 			float: right;
-			margin: 0 0 2rem 2rem;
+			margin: 2rem 2rem 2rem 2rem;
 			top: 0.75rem;
 		}
 
@@ -2637,6 +2639,7 @@ input, select, textarea {
 			margin-left: auto;
 			margin-right: auto;
 			width: 70%;
+			align-items: center;
 			
 		}
 
