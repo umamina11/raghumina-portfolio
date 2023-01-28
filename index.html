@@ -83,6 +83,7 @@
 	perspective: 1000px;
 	align-items: center;
 	border-radius: 10%;
+	padding-left: 50px;
   }
   
   .flip-card-inner {
@@ -187,7 +188,7 @@
 /******main button**********/
 
    .button {
-	padding: 0.9em 1.8em;
+	padding: 1em 1.8em;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 4px;
@@ -197,6 +198,7 @@
 	position:relative;
 	font-family: inherit;
 	background: transparent;
+	align-items: center;
    }
    
    .button::before {
@@ -224,7 +226,7 @@
 	content: "Github";
 	position: absolute;
 	top: 0;
-	left: -100%;
+	left: -400%;
 	width: 100%;
 	height: 100%;
 	background-color: #363636;
@@ -246,6 +248,9 @@
 	color:rgb(3, 3, 3);
 	text-shadow:2px 2px #f0e9e9;
 	text-decoration: double;
+   }
+   .btncent{
+	align-items: center;
    }
 
 		</style>
@@ -304,6 +309,7 @@
 
 				<!-- Main -->
 				<div class="bgtwo">
+					<p>Background-Image:Undertale</p>
 					<div id="main">
 
 
@@ -311,7 +317,9 @@
 									<!-- small projects-->
 						<!-- Posts -->
 						<div class="cent">
-							<h2>Projects </h2></div>
+							<h2>Projects </h2>
+						</div>
+							
 								<section class="posts">
 									<!--sleepy game -->
 									<article>
@@ -320,11 +328,12 @@
 											<h2><a href="sleepy.pdf">Sleepy Game<br />
 											</a></h2>
 										</header>
-										<a href="sleepy.pdf" class="image fit"><div class="flip-card">
+										<a href="sleepy.pdf" class="image fit">
+											<div class="flip-card">
 											<div class="flip-card-inner">
 											  <div class="flip-card-front">
 												<img src="sl.gif" alt="Avatar"style="width:500px;height:300px;">
-											  </div>
+											  </div> 
 											  <div class="flip-card-back">
 												<h3>Sleep Hygiene: </h3> 
 												<p> As part of a larger project with collaboration among multiple organizations to assist patients with
@@ -335,16 +344,17 @@
 											  </div>
 											</div>
 										  </div></a>
-										
+										<div class="btncent">
 										<ul class="actions special">
 											<li><a href="sleepy.pdf" class="button">More</a></li>
 										</ul>
+									</div>
 									</article>
 									<!---Sanity Insantiy-->
 									<article>
 										<header>
 											<span class="date"></span>
-											<h2><a href="Sanity_Insanity.html">Sanity_Insanity<br />
+											<h2><a href="Sanity_Insanity.html">Sanity Insanity<br />
 											</a></h2>
 										</header>
 										<a href="Sanity_Insanity.html" class="image fit">
