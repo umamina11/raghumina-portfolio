@@ -14,31 +14,13 @@
 				width: 70%;
 				height: auto;
 			  }
-			.wave {
-				animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-				animation-duration: 2.5s;        /* Change to speed up or slow down */
-				animation-iteration-count: infinite;  /* Never stop waving :) */
-				transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-				display: inline-block;
-			  }
-			  
-			  
-			  @keyframes wave-animation {
-				  0% { transform: rotate( 0.0deg) }
-				 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-				 20% { transform: rotate(-8.0deg) }
-				 30% { transform: rotate(14.0deg) }
-				 40% { transform: rotate(-4.0deg) }
-				 50% { transform: rotate(10.0deg) }
-				 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-				100% { transform: rotate( 0.0deg) }
-			  }
+		  
 
 
 			  .buttons {
 				width: 960px;
 				margin: 0 auto;
-			  }
+			  } 
 			  
 			  .action_btn {
 				display: inline-block;
@@ -68,7 +50,7 @@
 				animation: jump 0.4s;
 			}
 			/**background**/
-.bg {
+			.bg {
 				background-image: url('mine.gif');
 				background-size: cover;
 				background-position: center;
@@ -83,7 +65,8 @@
 	perspective: 1000px;
 	align-items: center;
 	border-radius: 10%;
-	padding-left: 50px;
+	padding-left: 5%;
+	padding-right:0%
   }
   
   .flip-card-inner {
