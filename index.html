@@ -237,6 +237,26 @@
    .btncent{
 	align-items: center;
    }
+   .container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+  }
+  
+  .btn {
+	width: calc(50% - 10px);
+	padding: 10px;
+	text-align: center;
+  }
+  
+  @media (max-width: 767px) {
+	.btn {
+	  width: 100%;
+	  margin-bottom: 10px;
+	}
+  }
+  
+   
 
 		</style>
 	</head>
@@ -276,10 +296,10 @@
 						<div class="buttons">
 
 							<div class="action_btn">
-				
-							<button name="submit" class="action_btn submit" type="submit" ><a href="#main" > Projects</a></button>
-							<button name="submit" class="action_btn cancel" type="submit" ><a href="resume.html" >Resume</a></button>
-				
+				<div class="container">
+							<button name="submit" class="btn" type="submit" ><a href="#main" > Projects</a></button>
+							<button name="submit" class="btn" type="submit" ><a href="resume.html" >Resume</a></button>
+						</div>
 							<p id="saved"></p>
 				
 							</div>
